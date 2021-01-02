@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/c77c95a/
+#translate	caesar-cipher/spec/caesar_spec.rb	/^  describe '#translate' do$/;"	d
+Caesar Cipher	README.md	/^# Caesar Cipher$/;"	c
+CaesarCipher	caesar-cipher/lib/caesar_cipher.rb	/^class CaesarCipher$/;"	c
+CaesarCipher	caesar-cipher/spec/caesar_spec.rb	/^describe CaesarCipher do$/;"	d
+String	caesar-cipher/lib/caesar_cipher.rb	/^class String$/;"	c
+capital?	caesar-cipher/lib/caesar_cipher.rb	/^  def capital?$/;"	f	class:String
+lowercase?	caesar-cipher/lib/caesar_cipher.rb	/^  def lowercase?$/;"	f	class:String
+ord_with	caesar-cipher/lib/caesar_cipher.rb	/^  def ord_with(shift)$/;"	f	class:String
+translate	caesar-cipher/lib/caesar_cipher.rb	/^  def translate(phrase, shift)$/;"	f	class:CaesarCipher
