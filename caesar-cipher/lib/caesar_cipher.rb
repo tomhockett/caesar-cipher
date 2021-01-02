@@ -1,3 +1,11 @@
+# frozen_string_literal: false
+
+# We don't want frozen strings since the whole point is to modify strings.
+# 'false' is default but Rubocop won't shut up about it . . .
+
+# String#capital? and String# lowercase? check for int ords of specific letters.
+# String#ord_with(shift) will return an integer ordinal shifted by
+# letters only (ignore punctuation.)
 class String
   def capital?
     ord.between?(65, 90)
